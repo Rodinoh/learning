@@ -11,3 +11,6 @@ data <- data.frame(
 
 # Create a Sankey plot
 sankeyNetwork(Links = data, Nodes = data.frame(name = unique(c(data$source, data$target))))
+
+##This didnt work successfully though
+
